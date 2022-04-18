@@ -80,14 +80,3 @@ gcloud builds submit --tag gcr.io/testnet-provider/helloworld --project testnet-
 gcloud run deploy --image gcr.io/testnet-provider/helloworld --project testnet-provider --platform managed
 
 ```
-
-
-
-```bash
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/flavioespinoza/nextjs-docker.git
-git push -u origin main
-```
